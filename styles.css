@@ -1,5 +1,5 @@
 .button {
-  background-image: linear-gradient(#fefefe, #d0d0d0);
+  background-image: linear-gradient(#fefefe, #c4c4c4);
   border-color: #cdcdcd;
   border-width: 1px;
   border-radius: 0px;
@@ -14,16 +14,9 @@
   transition-duration: 0.4s;
 }
 .button:hover {
-  background-image: linear-gradient(#b0b0b0, #d9d9d9);
+  background-image: linear-gradient(#909090, #c0c0c0);
   color: white;
-  text-shadow: 0px 1px 3px black;
-}
-.generated {
-  font-family: Ubuntu;
-  font-weight: 300;
-  font-size: 17px;
-  text-shadow: 0px 1px 4px black;
-  color: white;
+  text-shadow: 0px 0px 4px white;
 }
 h1 {
   color: white;
@@ -31,10 +24,23 @@ h1 {
   font-family: "Ubuntu";
   font-weight: 300;
 }
+.badge {
+  background-image: linear-gradient(#293627, green);
+  color: white;
+  padding: 4px 8px;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0px 1px 3px black;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  box-shadow: 0px 1px 8px green;
+}
 .title1 {
   text-shadow: 0px 1px 5px black;
   font-size: 80px;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 .sTitle1 {
@@ -47,14 +53,31 @@ h1 {
   text-shadow: 0px 1px 3px black;
 }
 .sTitle2 {
-  color: #ff3c2e;
+  color: #ff5959;
   font-family: "Ubuntu";
   font-weight: 300;
   font-size: 12px;
   margin-top: 0px;
-  margin-bottom: 30px;
-  text-shadow: 0px 1px 3px black;
+  margin-bottom: 40px;
+  text-shadow: 0px 0px 3px black;
+}
+.generatedA {
+  font-family: Ubuntu;
+  font-weight: 300;
+  font-size: 17px;
+  text-shadow: 0px 1px 2px black;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.generatedBC {
+  font-family: Ubuntu;
+  font-weight: 300;
+  font-size: 17px;
+  text-shadow: 0px 1px 2px black;
+  color: white;
+  margin-top: 0px;
 }
 body {
-  background-color: #d8d8d8;
+  background-color: #c4c4c4;
 }
