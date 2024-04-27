@@ -1,4 +1,4 @@
 # 95Windows
 A web-based Windows 95 product key generator, **4fun.**
 ## Notes
-* 27/04/2024 I still haven't done anything outside of the GUI, i'll use the same hosting website as the MWHtml one
+* I'm shit at JavaScript (and HTML and CSS and every other coding language), so sorry for any huge mistakes in the code, feel free to fix them
