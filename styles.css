@@ -43,7 +43,16 @@ h1 {
   font-weight: 300;
   font-size: 22px;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+  text-shadow: 0px 1px 3px black;
+}
+.sTitle2 {
+  color: #ff3c2e;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 30px;
   text-shadow: 0px 1px 3px black;
 }
 body {
