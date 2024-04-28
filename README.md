@@ -10,7 +10,7 @@ A web-based Windows 95 product key generator, built in HTML, CSS and JavaScript
 - [x] 2B - Still a WIP but UI got even more gorgeus, B/C script it's still half broken and we now have dark mode + cookies!
 ### Important Notes
 ###### *Current live version: 2B WIP
-###### *Currently the B/C product key generation is half broken, and I'm not sure why.
+###### *Currently developing the B/C algorithm, from scratch :/
 ###### *For the B/C product key generation script, i've used some of [@MobCat's](https://github.com/MobCat) research, thanks man!
 ###### *HTTPS Website live at: https://95Windows.rf.gd/
 ###### *If the HTTPS website doesn't work, try visiting the HTTP version: http://95Windows.rf.gd/
