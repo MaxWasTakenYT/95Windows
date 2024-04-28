@@ -29,34 +29,39 @@ function generateProductKey() {
 
 function generateSecondProductKey() {
     function GF3X() {
-        var firstone = Math.floor(Math.random() * 366);
-        return firstone;
+        var ddd = Math.floor(Math.random() * (366 - 100 + 1)) + 100;
+        return ddd;
     }
     var F3X = GF3X();
-    function GO2() {
-        var othertux = Math.floor(Math.random() * 2) + 95;
-        return othertux;
+
+    function GY2X() {
+        var yy = Math.floor(Math.random() * (99 - 95 + 1)) + 95;
+        return yy;
     }
-    var O2X = GO2();
-    var AX = "-OEM-";
-    function GMD7() {
+    var Y2X = GY2X();
+
+    var SEPO = "-OEM-";
+    var IX = '00';
+    var SEPT = "-";
+
+    function GSSX() {
         while (true) {
-            var mgsvn = Math.floor(Math.random() * 8888889);
-            var mgsvn_sum = Array.from(String(mgsvn)).reduce((sum, digit) => sum + parseInt(digit), 0);
-            if (mgsvn_sum % 7 === 0) {
-                return mgsvn;
+            var sevx = Math.floor(Math.random() * (99999 - 10000 + 1)) + 10000;
+            var sevsum = Array.from(String(sevx), Number).reduce((a, b) => a + b, 0);
+            if (sevsum % 7 === 0) {
+                return sevx;
             }
         }
     }
-    var MD7 = GMD7();
-    var A2X = "-";
-        
-    function GLRD() {
-        var lstrndm = Math.floor(Math.random() * 100000);
-        return lstrndm;
+    var SSX = GSSX();
+
+    function GLFX() {
+        var lsfv = Math.floor(Math.random() * (99999 - 10000 + 1)) + 10000;
+        return lsfv;
     }
-    var LRDX = GLRD();
-    var FPKX = F3X.toString() + O2X.toString() + AX + MD7.toString() + A2X + LRDX.toString();
+    var LFX = GLFX();
+
+    var FPKX = F3X.toString() + Y2X.toString() + SEPO + IX + SSX.toString() + SEPT + LFX.toString();
     return FPKX;
 }
 
