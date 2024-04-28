@@ -72,3 +72,45 @@ function handleGenerateButtonClick() {
 }
 
 document.getElementById('generateBtn').addEventListener('click', handleGenerateButtonClick);
+
+function darkMode() {
+  var element = document.body;
+  var darkModeButton = document.getElementById('darkMode');
+  var darkButton = document.getElementById('darkButton');
+  var badge = document.querySelector('.badge');
+  element.classList.toggle("dbody");
+  element.classList.toggle("body");
+  darkModeButton.classList.toggle("drktgl");
+  darkModeButton.classList.toggle("dtgl");
+  darkButton.classList.toggle("dbutton");
+  badge.classList.toggle("dbadge");
+  var isDarkMode = element.classList.contains("dbody");
+  document.cookie = "darkMode=" + (isDarkMode ? "true" : "false") + ";path=/";
+}
+
+function acceptCookies() {
+  var cookieBanner = document.getElementById("cookieBanner");
+  cookieBanner.parentNode.removeChild(cookieBanner);
+
+  document.cookie = "cookiesAccepted=true;path=/";
+}
+
+window.onload = function() {
+  var cookiesAccepted = getCookie("cookiesAccepted");
+  if (!cookiesAccepted) {
+    // Show cookie banner if cookies are not accepted
+    var cookieBanner = document.getElementById("cookieBanner");
+    cookieBanner.style.display = "block";
+  }
+}
+
+function getCookie(name) {
+  var cookieArr = document.cookie.split(";");
+  for(var i = 0; i < cookieArr.length; i++) {
+    var cookiePair = cookieArr[i].split("=");
+    if(name == cookiePair[0].trim()) {
+      return decodeURIComponent(cookiePair[1]);
+    }
+  }
+  return null;
+}
