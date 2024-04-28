@@ -1,6 +1,6 @@
 # Security Policy
 ### Versions that apply
-This policies are supported by all versions of **95Windows** from the **1D**.
+This policies are supported by all versions of **95Windows** from the **2B**.
 ### Data collection
 No user data gets stored by the website while it's being used.
 The only data that gets collected according to user's choice is the dark mode preference cookie.
