@@ -11,6 +11,7 @@ A web-based Windows 95 (type A, B and C) product key generator, built in HTML, C
 - [x] 2B - UI's 99% done, B/C gen. script got rewritten.
 ### Important Notes
 ###### *Current live version: 2B
-###### *For the B/C product key generation script, i've used some of [@MobCat's](https://github.com/MobCat) and [@Endermanch's](https://github.com/Endermanch) research,
+###### *The cookies are not functioning as they should, the dark mode preference doesn't work (TO-DO)
 ###### *If the website doesn't work, try visiting the HTTP version: http://95Windows.rf.gd/
 ###### *Since Windows 95 ****IS**** abandonware, this project is not endorsed by Microsoft **and doesn't need to be**
+###### *For the B/C product key generation script, i've used some of [@MobCat's](https://github.com/MobCat) and [@Endermanch's](https://github.com/Endermanch) research
