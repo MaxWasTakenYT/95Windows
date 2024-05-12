@@ -1,3 +1,9 @@
+/*
+95Windows - JavaScript Scripts
+A web-based Windows 95 product key generator.
+GitHub Repo: https://github.com/MaxWasTakenYT/95Windows/
+*/
+
 function generateProductKey() {
   function GF3() {
     while (true) {
