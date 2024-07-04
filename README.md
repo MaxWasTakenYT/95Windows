@@ -1,14 +1,14 @@
 # [95Windows](https://95Windows.rf.gd/)
 A web-based Windows 95 (type A, B and C) product key generator, built in HTML, CSS and JavaScript
 ### Changelogs
-- [x] 1X - Testing
-- [x] 1A - UI Sketched up, no scripts
-- [x] 1B - UI Finished, no scripts
-- [x] 1C - UI and script 'A' done
-- [x] 1D - UI got better, still no B/C script
-- [x] 2A - UI got even better, we got B/C script, but it's half broken
+- [x] 1X - Testing..
+- [x] 1A - Site's UI sketched up, no scripts.
+- [x] 1B - Site's UI finished, still no scripts.
+- [x] 1C - Site's UI and script 'A' done.
+- [x] 1D - Site's UI got better, still no B/C script.
+- [x] 2A - Site's UI got even better, we got B/C script, but it's half broken.
 - [x] 2B WIP - Still a WIP but UI got even more gorgeus, B/C script it's still half broken and we now have dark mode + cookies!
-- [x] 2B - UI's 99% done, B/C gen. script got rewritten.
+- [x] 2B - Site's UI's 99% done, B/C gen. script got rewritten, and cookies are now broken!
 ### Important Notes
 ###### *Current live version: 2B
 ###### *The cookies are not functioning as they should, the dark mode preference doesn't work (TO-DO)
